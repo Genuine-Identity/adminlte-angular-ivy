@@ -37,10 +37,11 @@ export class AppComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    console.log('a');
     // localStorage.clear();
     // this.localStorage.setItem('db.message', null);
     // this.localStorage.setItem('db.messages', null);
-    this.initFakeBackendDatabase();
+    // this.initFakeBackendDatabase();
   }
 
   private initFakeBackendDatabase(): void {
