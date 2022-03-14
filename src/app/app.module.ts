@@ -28,7 +28,7 @@ import { NgSelectModule } from '@ng-select/ng-select';
 // import { AceEditorModule } from 'ng2-ace-editor';
 
 import { environment } from './core/environment';
-import { AngularFireModule } from '@angular/fire/compat';
+// import { AngularFireModule } from '@angular/fire/compat';
 
 @NgModule({
   imports: [
@@ -42,10 +42,10 @@ import { AngularFireModule } from '@angular/fire/compat';
     NgSelectModule,
     // AceEditorModule,
     NgChartsModule,
-    AngularFireModule.initializeApp(
-      environment.firebaseConfig,
-      'stackblitz-firebase-database'
-    ),
+    // AngularFireModule.initializeApp(
+    //   environment.firebaseConfig,
+    //   'stackblitz-firebase-database'
+    // ),
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
