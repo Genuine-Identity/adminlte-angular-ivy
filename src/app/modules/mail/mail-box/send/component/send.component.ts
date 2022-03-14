@@ -5,10 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './send.component.html',
   styleUrls: ['./send.component.css'],
 })
-
 export class SendComponent implements OnInit {
-  constructor() {
-  }
-  ngOnInit() {
-  }
+  constructor() {}
+  ngOnInit() {}
 }
