@@ -1,3 +1,0 @@
-export let Config = {
-  baseUrls: {},
-};
