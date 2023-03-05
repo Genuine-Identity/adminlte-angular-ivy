@@ -23,10 +23,7 @@
     "module": "esnext",
     "useDefineForClassFields": false,
     "skipLibCheck": true,
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "lib": ["ES2022", "dom"]
   },
   "angularCompilerOptions": {
     "noImplicitAny": false,
@@ -34,12 +31,7 @@
     "strictInjectionParameters": false,
     "strictInputAccessModifiers": false,
     "strictTemplates": false,
-    "strictPropertyInitialization": false,
+    "strictPropertyInitialization": false
   },
-  "files": [
-    "src/assets/javascript/demo.js"
-  ],
-  "include": [
-    
-  ],
+  "files": ["src/assets/javascript/demo.js"]
 }
